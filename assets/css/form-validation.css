@@ -1,0 +1,25 @@
+/* Form Validation Styles */
+.error-message {
+	color: #ff6b6b;
+	font-size: 0.8em;
+	display: block;
+	margin-top: 0.25em;
+	min-height: 1em;
+}
+
+.field input.invalid,
+.field textarea.invalid {
+	border-color: #ff6b6b !important;
+	box-shadow: 0 0 0 1px #ff6b6b !important;
+}
+
+.field input.valid,
+.field textarea.valid {
+	border-color: #4CAF50 !important;
+	box-shadow: 0 0 0 1px #4CAF50 !important;
+}
+
+#submit-btn:disabled {
+	opacity: 0.5;
+	cursor: not-allowed !important;
+}
